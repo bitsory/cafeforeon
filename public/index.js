@@ -41,16 +41,13 @@ console.log(user_cart);
 toggleBtn.addEventListener('click', (e) => {
     menu.classList.toggle('on');
     icons.classList.toggle('on');
-    // navbar.classList.toggle('on');
+   
     main.classList.toggle('on');
     lorem.classList.toggle('on');
     footer.classList.toggle('on');
-    // footer.classList.toggle('on');
-    // navbar_toggle.classList.toggle('on');
+   
     toggleBtn.classList.toggle('on');
-    console.log("toggle");
-    console.log(toggleBtn.classList);
-    console.log(e);
+   
 });
 
 console.log("index.js");
