@@ -7,7 +7,7 @@ require('dotenv').config()
 
 app.listen(process.env.PORT, function() {
     console.log('listening on 8080');
-    // console.log(session);
+    console.log("updated");
 });
 
 
